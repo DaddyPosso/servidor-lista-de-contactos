@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "f85f",
+      "username": "carlitosp"
+    },
+    {
+      "id": "5d11",
+      "username": "carlitosposso"
+    },
+    {
+      "id": "9772",
+      "username": "wegdsgdsg"
+    },
+    {
+      "id": "dec7",
+      "username": "dfhdfh"
+    },
+    {
+      "id": "136d",
+      "username": "123"
+    },
+    {
+      "id": "3cfa",
+      "username": "asd"
+    }
+  ],
+  "todos": [
+    {
+      "id": "2383",
+      "text": "tarea",
+      "user": "asd",
+      "cheked": true
+    },
+    {
+      "id": "b94c",
+      "text": "tarea2",
+      "user": "asd",
+      "cheked": true
+    },
+    {
+      "id": "183c",
+      "text": "tarea",
+      "user": "carlitosp",
+      "cheked": false
+    }
+  ]
+}
