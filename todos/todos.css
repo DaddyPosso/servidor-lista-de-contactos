@@ -65,13 +65,23 @@ form {
 }
 
 #form-btn {
-  flex-grow: 1;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  background-color: #6366f1;
-  color: #eef2ff;
-  transition: background 0.2s ease-in;
+  border: none; 
+  color: rgb(0, 0, 0); 
+  padding: 14px 28px; 
+  cursor: pointer; 
+  border-radius: 5px;
+}
+
+.Cerrar:hover {
+  background-color: #4f46e5;
+}
+
+.Cerrar {
+  border: none; 
+  color: rgb(0, 0, 0); 
+  padding: 14px 28px; 
+  cursor: pointer; 
+  border-radius: 5px;
 }
 
 #form-btn:hover {
@@ -89,13 +99,33 @@ ul {
   gap: 0.5rem;
 }
 
-.todo-item {
+.list-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #334155;
   background-color: #e2e8f0;
   border-radius: 0.5rem;
+}
+.form-input-container {
+  justify-content: center;
+  text-align: center;
+  border-radius: 50px;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(183, 185, 185, 0.363);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+  
+}
+#form {
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
 }
 
 .delete-btn {
@@ -112,7 +142,7 @@ ul {
   color: #fee2e2;
 }
 
-.check-btn {
+.edit-btn {
   padding: 0.5rem;
   border-radius: 0rem 0.5rem 0.5rem 0rem;
   background-color: #4ade80;
@@ -121,7 +151,7 @@ ul {
   cursor: pointer;
 }
 
-.check-btn:hover {
+.edit-btn:hover {
   background-color: #22c55e;
   color: #dcfce7;
 }
@@ -130,6 +160,16 @@ ul {
   display: block;
 }
 
-.check-todo {
+.edit-btn {
   text-decoration: line-through;
+}
+
+.info {
+  width: 200px;
+  margin: 0;
+  
+}
+
+.border-edit {
+  outline: 2px solid rgb(91, 91, 91); 
 }
